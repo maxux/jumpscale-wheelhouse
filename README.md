@@ -9,5 +9,5 @@ Build wheels (precompiled dependencies) for Jumpscale 9 (development branch)
   - `docker run -it --rm -v $(pwd)/lib9:/io quay.io/pypa/manylinux1_x86_64 bash /io/build.sh`
 
 For each submodules (core9, lib9, ...) you'll find:
- - Wheels under: `.../wheelhouse/repository` and `.../wheelhouse/repository`
+ - Wheels under: `.../wheelhouse/repository`
  - Archives for specific python version under: `.../wheelhouse/release/`
